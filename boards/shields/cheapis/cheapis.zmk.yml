@@ -1,8 +1,8 @@
 file_format: "1"
 id: cheapis
-name: ⌨
+name: Cheapis
 type: shield
-url: https://github.com/dotleon/cheapis
+url: https://github.com/duncanmcbryde/cheapis
 requires: [pro_micro]
 features:
   - keys
