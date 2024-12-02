@@ -1,5 +1,7 @@
-# Copyright (c) 2021 The ZMK Contributors
-# SPDX-License-Identifier: MIT
+# No whitespace after the comma or in your part name!
+config SHIELD_CHEAPIS_LEFT
+    def_bool $(shields_list_contains,cheapis_left)
 
-config SHIELD_CHEAPIS
-    def_bool $(shields_list_contains,cheapis)
+# No whitespace after the comma or in your part name!
+config SHIELD_CHEAPIS_RIGHT
+    def_bool $(shields_list_contains,cheapis_right)

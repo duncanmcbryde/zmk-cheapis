@@ -1,9 +1,17 @@
-# Copyright (c) 2021 The ZMK Contributors
-# SPDX-License-Identifier: MIT
+if SHIELD_CHEAPIS_LEFT
 
-if SHIELD_CHEAPIS
-
+# Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "Cheapis"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_CHEAPIS_LEFT || SHIELD_CHEAPIS_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif
